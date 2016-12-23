@@ -1,24 +1,26 @@
-html {
-  font-family: sans-serif;
-  background-color: #edeef0;
+* {
   padding: 0;
   margin: 0;
 }
-
-.row {
-  width: 100%;
-  clear: both;
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #edeef0;
 }
 
-p {
+.row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.row> p {
+  font-size: 2.5em;
   text-align: center;
-  font-size: 40px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
-  .menu-block-1, .menu-block-2, .menu-block-3{
+  .menu-block-1, .menu-block-2, .menu-block-3 {
   background-color: #fff;
   width: 31%;
   border: 1px solid black;
@@ -26,51 +28,48 @@ p {
   margin: 10px;
   float: left;
   position: relative;
+  box-sizing: border-box;
 }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-.menu-block-md-1 .menu-block-md-2  {
+.menu-block-1, .menu-block-2, .menu-block-3{
   background-color: #fff;
-  width: 45%;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 30px;
-  margin-top: 20px;
-  float: left;
-  position: relative;
-}
-
-.menu-block-md-3 {
-  background-color: #fff;
-  width: 30%;
+  width: 47%;
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
-  margin-top: 20px;
-  position: relative;
-}
-}
-
-/*@media (min-width: 768px and max-width: 991px) {
-
-.menu-block-sm {
-  background-color: #fff;
-  width: 30%;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  margin-top: 20px;
   float: left;
   position: relative;
+  box-sizing: border-box;
+}
+
+ .menu-block-3 {
+  width: 96.5%;
+  clear: both;
 }
 }
-*/
+
+@media (max-width: 767px) {
+
+.menu-block-1, .menu-block-2, .menu-block-3 {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: : 10px;
+  margin-top: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+}
+
 .menu-content {
   margin-top: 60px;
   font-size: 1.25em;
   font-weight: normal;
+  background-color: #fff;
 }
 
 .menu-header {
