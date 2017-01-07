@@ -56,6 +56,10 @@ h1, .h1, h2, .h2, h3, .h3 {
 
  	margin: 5px;
  	list-style: none;
+
+ }
+ .well ul{
+ 	margin-left: -40px;
  }
  .divider{
  	border: solid 0.5px #010300;
