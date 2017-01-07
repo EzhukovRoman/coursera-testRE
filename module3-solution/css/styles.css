@@ -1,0 +1,76 @@
+body {
+	font: 16px Tahoma, sans-serif;
+	background-color: #ffffff;
+	color: #ffe056;
+}
+a {
+	color: #ffe056;
+ 	font-size: 1.5em;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 25px;
+    margin-bottom: 35px; 
+    color: #052427;
+}
+.wraper{
+	padding: 0;
+	margin-bottom: 15px;
+}
+.nav{
+	background-color:#14435b;
+	height: 60px;
+}
+
+.nav p {
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: #ffe056;
+	
+}
+.navbar-header{
+	float: left;
+	padding-top: 5px;
+}
+
+.btn{
+	font-size: 22px;
+	color: #010300;
+	background-color: #e0ce90;
+	float: right;
+	bottom: 8px; 
+	right: 20px;
+	position: absolute;
+}
+
+
+.well {
+	background-color:#e0ce90;
+	position: relative;
+	top: 6px;
+	
+	z-index: 12;
+}  
+ 
+ .well ul li{
+
+ 	margin: 5px;
+ 	list-style: none;
+ }
+ .divider{
+ 	border: solid 0.5px #010300;
+
+ }
+ .row{
+ 	margin: 0;
+  }
+ .menu-item{
+ 	
+ 	margin: 30px 20px;
+ 	padding: 10px;
+ 	background-color: #14435b;
+ 	
+ }
+.menu-item a{
+	font-size: 1.3em;
+}
