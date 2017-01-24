@@ -66,6 +66,7 @@ section#main {
 .header{
   padding-bottom: 150px;
 }
+/*==============================form=========================*/
 .header-form  h2{
   color: #a60436;
   font-family: 'UbuntuMedium';
@@ -89,12 +90,16 @@ section#main {
   border-radius: 5px;
   height: 40px;
   width: 80%;
+  display: inline-block;
+  box-shadow: 0px 5px 5px #da0849;
 }
 .main-form .btn-sub:hover {
   background-color: #8b022c;
 }
 .main-form .btn-sub:active {
   background-color: #fe0351;
+  box-shadow: none;
+  transform: translateY(5px);
 }
 /*=========================preview section=============================*/
 section#preview {
@@ -102,7 +107,7 @@ section#preview {
   border-bottom: 5px solid #a60436;
 }
 .prev-header h2 {
-  color: #323232;
+  color: #a60436;
   font-family: 'UbuntuBold';
   padding-bottom: 20px;
 }
@@ -113,4 +118,80 @@ section#preview {
 .prevs-row img {
   width: 100%;
   padding: 10px;
+}
+/*=======================prices=========================================*/
+.header-price h2 {
+  color: #a60436;
+  font-family: 'UbuntuBold';
+  padding-bottom: 20px;
+}
+.offering h3 {
+  color: #a60436;
+  font-family: 'UbuntuMedium';
+}
+.offering {
+  border: 5px solid #a60436;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.item ul li {
+  color: #a60436;
+  font-family: 'UbuntuMedium';
+  list-style-image: url("../img/chek.png");
+}
+.item .btn-sub {
+  background-color: #a60436;
+  color: #fff;
+  font-family: 'UbuntuBold';
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 80%;
+  display: inline-block;
+  box-shadow: 0px 5px 5px #da0849;
+}
+.item .btn-sub:hover {
+  background-color: #8b022c;
+}
+.item .btn-sub:active {
+  background-color: #fe0351;
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.price-rev {
+  padding-bottom: 40px;
+}
+/*======================================second form===========================*/
+.header-form  h2{
+  color: #a60436;
+  font-family: 'UbuntuMedium';
+  padding-bottom: 20px;
+}
+.second-form {
+  padding-bottom: 30px;
+}
+.second-form input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #959595;
+}
+.second-form .btn-sub {
+  background-color: #a60436;
+  color: #fff;
+  font-family: 'UbuntuBold';
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 80%;
+  display: inline-block;
+  box-shadow: 0px 5px 5px #da0849;
+}
+.second-form .btn-sub:hover {
+  background-color: #8b022c;
+}
+.second-form .btn-sub:active {
+  background-color: #fe0351;
+  box-shadow: none;
+  transform: translateY(5px);
 }
