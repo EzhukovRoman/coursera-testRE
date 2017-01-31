@@ -34,7 +34,7 @@
 /*===========================header styles===============================*/
 section#main {
   padding-top: 50px;
-  height: 100%;
+  height: 1000px;
   background: url(../img/background.jpg) no-repeat top center;
 }
 .phone h2{
@@ -89,7 +89,7 @@ section#main {
   border: none;
   border-radius: 5px;
   height: 40px;
-  width: 80%;
+  width: 90%;
   display: inline-block;
   box-shadow: 0px 5px 5px #da0849;
 }
@@ -103,13 +103,14 @@ section#main {
 }
 /*=========================preview section=============================*/
 section#preview {
-  padding-bottom: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-bottom: 5px solid #a60436;
 }
 .prev-header h2 {
   color: #a60436;
   font-family: 'UbuntuBold';
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .prevs-row p {
   color: #a60436;
@@ -123,7 +124,8 @@ section#preview {
 .header-price h2 {
   color: #a60436;
   font-family: 'UbuntuBold';
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .offering h3 {
   color: #a60436;
@@ -170,13 +172,13 @@ section#preview {
   transform: translateY(5px);
 }
 .price-rev {
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 /*======================================second form===========================*/
 .header-form  h2{
   color: #a60436;
   font-family: 'UbuntuMedium';
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .second-form {
   padding-bottom: 30px;
@@ -194,7 +196,7 @@ section#preview {
   border: none;
   border-radius: 5px;
   height: 40px;
-  width: 80%;
+  width: 100%;
   display: inline-block;
   box-shadow: 0px 5px 5px #da0849;
 }
@@ -361,6 +363,9 @@ section#preview {
 @media (min-width: 320px) and (max-width: 479px){
   * {
     font-size: 14px;
+  }
+  section#main {
+    height: 800px;
   }
   .revizorro-logo {
     text-align: right;
