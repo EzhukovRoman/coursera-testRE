@@ -438,3 +438,92 @@ section#preview {
   }
 
 }
+@media (max-width: 319px){
+  * {
+    font-size: 14px;
+  }
+  section#main {
+    height: 800px;
+  }
+  .revizorro-logo img{
+    width: 100px;
+  }
+  .company-logo img{
+    height: 80px;
+  }
+  .social img{
+    width: 20px;
+    height: 20px;
+  }
+  .phone {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .phone h2 {
+    font-size: 25px;
+  }
+  .header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .header h1 {
+    font-size: 22px;
+  }
+  .header-form  h2{
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .main-form input{
+    margin-bottom: 3px;
+  }
+  .prev-header h2{
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  #preview img{
+    width: 50%;
+  }
+  section#preview {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header-price h2 {
+    font-size: 22px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .price-rev {
+    text-align: center;
+  }
+  .item {
+    width: 100%;
+  }
+  .offering{
+    margin-bottom: 25px;
+    height: 510px;
+  }
+  .offering img {
+    width: 100%;
+  }
+  .offering h3 {
+    height: 60px;
+    font-size: 20px;
+  }
+  .item ul li {
+    text-align: center;
+    list-style-image: url("../img/chek-xs.png");
+  }
+  .item .btn-sub {
+    position: absolute;
+    top: 450px;
+    left: 15%;
+    width: 70%;
+  }
+  .second-form input{
+    margin-bottom: 5px;
+  }
+  .modal-form input{
+    margin-bottom: 5px;
+  }
+
+}
