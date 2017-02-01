@@ -208,6 +208,38 @@ section#preview {
   box-shadow: none;
   transform: translateY(5px);
 }
+/*================================Slider================================*/
+.carusel {
+  padding-bottom: 50px;
+}
+.carousel-indicators li {
+  border: 2px solid #a60436;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+}
+.carousel-indicators .active {
+  border: 2px solid #a60436;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+  background-color: #a60436;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.glyphicon-chevron-left {
+  color: #a60436 ;
+}
+.glyphicon-chevron-right {
+  color: #a60436 ;
+}
 /*===========================================MOdal=====================*/
 .modal-form input{
   width: 100%;
@@ -359,6 +391,16 @@ section#preview {
   .modal-form input{
     margin-bottom: 5px;
   }
+  .carousel-indicators li {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+  }
+  .carousel-indicators .active {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+  }
 }
 @media (min-width: 320px) and (max-width: 479px){
   * {
@@ -435,6 +477,16 @@ section#preview {
   }
   .modal-form input{
     margin-bottom: 5px;
+  }
+  .carousel-indicators li {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+  }
+  .carousel-indicators .active {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
   }
 
 }
@@ -524,6 +576,16 @@ section#preview {
   }
   .modal-form input{
     margin-bottom: 5px;
+  }
+  .carousel-indicators li {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+  }
+  .carousel-indicators .active {
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
   }
 
 }
